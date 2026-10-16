@@ -1,0 +1,17 @@
+{
+  "name": "হিসাব খাতা - Hisab Khata",
+  "short_name": "হিসাব খাতা",
+  "description": "দৈনিক খরচ ও ধার-দেনার ব্যক্তিগত হিসাব খাতা",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#10b981" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#0f172a"/>
+  <rect x="56" y="56" width="400" height="400" rx="96" fill="url(#grad)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="140" fill="#0b0f19" opacity="0.15"/>
+  <!-- Taka Sign ৳ in Bengali -->
+  <text x="256" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="220" font-weight="900" fill="#ffffff" text-anchor="middle">৳</text>
+  <circle cx="365" cy="155" r="28" fill="#fbbf24"/>
+</svg>
